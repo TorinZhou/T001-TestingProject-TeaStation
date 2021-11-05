@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+.skills {
+  min-height: 80vh;
+  background: #0cb414;
+  /* border: 0.1rem solid black; */
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.skill {
+  width: 10%;
+  float: left;
+  background: rgb(192, 96, 17);
+  /* margin: 1rem; */
+  /* border: 0.3rem solid red; */
+}
+.skill:hover {
+  background: red;
+}
+.skill:first-child {
+  background: blue;
+  max-height: 20vh;
+  overflow-y: scroll;
+}
+.two {
+  height: 1rem;
+  background-color: turquoise;
+}
